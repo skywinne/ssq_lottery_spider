@@ -10,7 +10,6 @@ import pymysql
 class LotteryssqPipeline(object):
 
     def __init__(self):
-        # self.conn = pymysql.connect(host='103.27.5.156', user='developer', passwd='Developer!123', db='spider', charset='utf8')
         self.conn = pymysql.connect(host='127.0.0.1', user='root', passwd='mysql', db='spider', charset='utf8')
         self.cursor = self.conn.cursor()
 
